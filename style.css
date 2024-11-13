@@ -1,0 +1,452 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.trait{
+    width: 25%;
+    background-color: black;
+    padding: 1px;
+}
+
+
+
+
+
+
+.fa-brands{
+    font-size: 40px;
+}
+
+html{
+    font-size: 16px;
+}
+
+p{
+    font-size: 1.4rem;
+}
+
+li{
+    font-size: 1.6rem;
+}
+
+h1{
+    font-size: 10rem;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 7rem;
+    font-weight: 300;
+}
+
+h3{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+::placeholder{
+    font-size: 3rem;
+    color: white;
+}
+
+label{
+    font-size: 2rem;
+}
+
+button{
+    font-size: 1.5rem;
+    padding: 15px 25px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+h5{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+/* header */
+header{
+    height: 20vh;
+    background-color: rgb(73, 173, 73);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 0 30px;
+}
+
+header img{
+    height: 80%;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    margin: 50px;
+}
+
+.burger_menu{
+    width: 50px;
+    height: 60px;
+    display: none;
+    flex-direction: column;
+}
+
+.burger_menu > div{
+    width: 100%;
+    height: 6px;
+    margin: 7px 0;
+    background-color: white;
+}
+
+/* footer */
+footer{
+    background-color: rgb(119, 23, 23);
+    height: 20vh;
+    display: flex;
+    flex-grow: 1;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div{
+    height: 110px;
+    width: 300px;
+    margin: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer div > *{
+    margin: 10px;
+}
+
+.res{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ACCUEIL */
+
+/* Section 1 */
+.titre-accueil{
+    height: 60vh;
+    background-image: url(images/basilic.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Section 2 */
+
+.principale-accueil{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.principale-accueil > div{
+    width: 40%;
+    height: 80%;
+    background-color: rgb(73, 173, 73);
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principale-accueil > div > *{
+    margin: 2%;
+}
+
+.principale-accueil > div img{
+    width: 45%;
+    height: auto;
+}
+
+.principale-accueil > div p{
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+/* A PROPOS */
+
+/* Section 1 */
+.titre-histoire{
+    height: 60vh;
+    background-image: url(images/starbucks-1281880_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Section 2 */
+.principale-histoire{
+    height: 160vh;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.principale-histoire > *{
+    display: flex;
+    height: 50%;
+}
+
+.principale-histoire > div > .image{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.principale-histoire > div > .texte{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.principale-histoire > * > * > img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.principale-histoire > div > div > *{
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* CONTACT */
+
+/* Section 1 */
+.titre-contact{
+    height: 60vh;
+    background-image: url(images/coffee-beans-2258839_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Section 2 */
+.principale-contact{
+    height: 170vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 120px 150px;
+}
+
+.principale-contact > *{
+    margin: 50px 0;
+}
+
+.principale-contact span{
+    font-size: 2.5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+form > div{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+form > div > *{
+    padding: 20px;
+}
+
+input[type="radio"]{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    appearance: none;
+    border-radius: 50%;
+    border: 1px solid #333;
+    background-color: white;
+}
+
+input[type="text"], input[type="email"]{
+    margin: 40px 0;
+    padding: 50px;
+    height: auto;
+    font-size: 3rem;
+    color: white;
+    background-color: rgb(73, 173, 73);
+    border: 1px solid grey;
+    box-shadow: 0 0 5px black;
+}
+
+input[type="submit"]{
+    margin: 40px 0;
+    padding: 50px;
+    height: auto;
+    font-size: 3rem;
+    color: white;
+    background-color: rgb(73, 173, 73);
+    border: 1px solid grey;
+    box-shadow: 0 0 5px black;
+    width: 50%;
+    justify-content: center;
+}
+
+
+
+@media (max-width: 1300px){
+    
+    html{
+        font-size: 10px;
+    }
+
+    h1{
+        font-size: 7rem;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    .burger_menu{
+        display: flex;
+    }
+
+    footer{
+        flex-direction: column;
+        height: 40vh;
+    }
+
+    .principale-accueil{
+        flex-direction: column;
+        height: auto;
+        margin: 10%;
+    }
+
+    .principale-accueil > div{
+        margin-top: 10%;
+    }
+
+    input[type="submit"]{
+        font-size: 2rem;
+    }
+
+    form{
+        width: 100%;
+    }
+
+    .principale-histoire{
+        justify-content: center;
+        height: auto;
+    }
+
+    .principale-histoire > *{
+        margin: 20px;
+        text-align: center;
+    }
+
+    .principale-histoire .texte{
+        align-items: center;
+    }
+
+    .principale-histoire #un{
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+
+    .principale-histoire #deux{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .principale-histoire img{
+        width: 250px;
+        height: 250px;
+    }
+
+}
